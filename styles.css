@@ -13,6 +13,7 @@ ul.no-bullets {
 
 .text-center {
     text-align: center;
+    list-style-position: inside;
 }
 
 .img-center {
@@ -22,7 +23,7 @@ ul.no-bullets {
 }
 
 .heading {
-    color: rgb(34, 156, 45);
+    color: rgb(224, 224, 224);
 }
 
 .text,
@@ -38,7 +39,28 @@ ul.no-bullets {
     font-size: 18px;
 }
 
+.box {
+    display: block;
+    background-color: rgb(19, 139, 139);
+    padding: 18px 18px;
+    margin: 18px auto;
+}
+
+.img-box {
+    display: block;
+    background-color: salmon;
+    border: 12px solid bisque;
+}
+
 body {
     background-color: rgba(0, 0, 0, 0.90);
 }
 
+button:hover {
+    background-color: rgb(20, 20, 20);
+}
+
+a {
+    color: rgb(228, 227, 227);  
+    text-decoration: none;
+}
